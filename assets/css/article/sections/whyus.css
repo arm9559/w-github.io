@@ -1,0 +1,430 @@
+.item-four span p {
+  margin-top: -25px !important;
+}
+.item-four span img {
+  margin-top: -20px !important;
+}
+
+.why-us {
+  position: relative;
+  margin-top: -755px !important;
+}
+.why-us .section-title {
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F8F8F8;
+}
+.why-us .why-us-child {
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.why-us .why-us-child .why-us-child-items .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 3px;
+}
+.why-us .why-us-child .why-us-child-items .items .item {
+  font-weight: 100 !important;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 322px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.why-us .why-us-child .why-us-child-items .items .item .item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 16px;
+}
+.why-us .why-us-child .why-us-child-items .items .item .item-header b {
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 24px;
+  color: #F8F8F8;
+}
+.why-us .why-us-child .why-us-child-items .items .item .item-header img {
+  height: 25px;
+}
+.why-us .why-us-child .why-us-child-items .items .item .item-footer p {
+  position: relative;
+  top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #EFEFEF;
+}
+.why-us .why-us-child .display .display-star-one {
+  position: relative;
+  left: 105px;
+}
+.why-us .why-us-child .display .display-star-two {
+  position: relative;
+  left: 30.2734375vw;
+}
+.why-us .why-us-child .display .background img {
+  width: 100%;
+}
+.why-us .why-us-child .display::after {
+  background-image: url("../../../images/article/section_why_us/pink_planet.png");
+  -webkit-animation: rotation 13s infinite linear;
+          animation: rotation 13s infinite linear;
+  height: 147px;
+  width: 147px;
+  background-size: 147px 147px;
+  content: "";
+  color: white;
+  position: absolute;
+  left: 90%;
+  z-index: -1;
+  top: 76%;
+}
+
+@media (max-width: 1501px) {
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 147px;
+    width: 147px;
+    background-size: 147px 147px;
+    content: "";
+    color: white;
+    position: absolute;
+    z-index: -1;
+  }
+}
+@media (max-width: 1300px) {
+  .why-us-child-items .items .item {
+    padding: 5px;
+  }
+  .why-us-child-items .items .item span {
+    padding: 5px;
+  }
+}
+@media (max-width: 1293px) {
+  .why-us-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 147px;
+    width: 147px;
+    background-size: 147px 147px;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 68% !important;
+    top: 87% !important;
+    z-index: -1;
+  }
+}
+@media (max-width: 1252px) {
+  .why-us {
+    position: relative !important;
+    top: -125px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .why-us {
+    position: relative !important;
+    top: -265px !important;
+  }
+}
+@media (max-width: 1173px) {
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 147px;
+    width: 147px;
+    background-size: 147px 147px;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 72% !important;
+    z-index: -1;
+    top: 87% !important;
+  }
+}
+@media (max-width: 996px) {
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 147px;
+    width: 147px;
+    background-size: 147px 147px;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 75% !important;
+    z-index: -1;
+    top: 87% !important;
+  }
+}
+@media (max-width: 992px) {
+  .why-us {
+    position: relative !important;
+    top: -395px !important;
+  }
+}
+@media (max-width: 878px) {
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 147px;
+    width: 147px;
+    background-size: 147px 147px;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 80% !important;
+    z-index: -1;
+    top: 87% !important;
+  }
+}
+@media (max-width: 768px) {
+  .why-us {
+    position: relative !important;
+    margin-top: -925px !important;
+  }
+
+  .why-attend-in-class {
+    position: relative !important;
+    margin-top: -325px !important;
+  }
+
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 87px !important;
+    width: 87px !important;
+    background-size: 87px 87px !important;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 65% !important;
+    z-index: -1;
+    top: 85% !important;
+  }
+}
+@media (max-width: 541px) {
+  .why-us {
+    margin-top: 85px !important;
+  }
+}
+@media (max-width: 520px) {
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 87px !important;
+    width: 87px !important;
+    background-size: 87px 87px !important;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 70% !important;
+    z-index: -1;
+    top: 86% !important;
+  }
+}
+@media (max-width: 355px) {
+  .items {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .items .item {
+    max-width: 80% !important;
+  }
+}
+@media (max-width: 380px) {
+  .why-us {
+    position: relative !important;
+    top: -175px !important;
+    margin-top: -255px !important;
+  }
+}
+@media (max-width: 419px) {
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 87px !important;
+    width: 87px !important;
+    background-size: 87px 87px !important;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 70% !important;
+    z-index: -1;
+    top: 87% !important;
+  }
+}
+@media (max-width: 392px) {
+  .display::after {
+    background-image: url("../../../images/article/section_why_us/pink_planet.png");
+    height: 87px !important;
+    width: 87px !important;
+    background-size: 87px 87px !important;
+    content: "";
+    color: white;
+    position: absolute;
+    left: 70% !important;
+    z-index: -1;
+    top: 88% !important;
+  }
+}
+@media (max-width: 453px) {
+  .why-us .section-title {
+    position: relative !important;
+    top: -25px !important;
+  }
+  .why-us .items {
+    margin: 5px;
+  }
+  .why-us .items:nth-child(2) {
+    position: relative !important;
+    top: -5px !important;
+  }
+  .why-us .items:nth-child(3) {
+    position: relative !important;
+    top: -11px !important;
+  }
+}
+@media (max-width: 768px) {
+  .items {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+
+  .display .background {
+    height: 500px !important;
+    width: 500px !important;
+    background-size: contain !important;
+  }
+}
+@media (max-width: 769px) {
+  .display-star-one {
+    position: relative !important;
+    height: 6px !important;
+  }
+
+  .display-star-two {
+    position: relative !important;
+    left: 185px !important;
+    height: 6px !important;
+    top: -135px !important;
+  }
+}
+@media (max-width: 768px) {
+  .items {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .items .item {
+    width: auto !important;
+    padding: 20px !important;
+    text-align: center;
+  }
+
+  .display .background {
+    height: 300px !important;
+    width: 300px !important;
+    background-size: contain !important;
+  }
+}
+@media (max-width: 718px) {
+  .why-us {
+    position: relative;
+    top: -307px !important;
+  }
+}
+@media (max-width: 608px) {
+  .why-us {
+    position: relative;
+    top: -397px !important;
+  }
+}
+@media (max-width: 457px) {
+  .why-us {
+    position: relative !important;
+    top: -397px !important;
+  }
+}
+@media (max-width: 453px) {
+  .why-us {
+    position: relative !important;
+    top: -397px !important;
+  }
+  .why-us .why-us-child {
+    position: relative !important;
+    top: -30px !important;
+  }
+  .why-us .items {
+    margin-bottom: 8px !important;
+  }
+  .why-us .items .item {
+    margin-top: -12px !important;
+    margin: 2px !important;
+  }
+  .why-us .items .item span {
+    width: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+@media (max-width: 402px) {
+  .display .display-star-two {
+    position: relative !important;
+    left: 155px !important;
+  }
+}

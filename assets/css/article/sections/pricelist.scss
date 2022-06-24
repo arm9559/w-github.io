@@ -1,0 +1,524 @@
+.price-item{
+    height: 0px !important;
+}
+.blue-top::after{
+    content: '';
+    background:url('../../../images/article/section_your_best_contribution/star.png');
+    animation: star 3s infinite linear;
+    height: 10.54px;
+    width: 118.02px;
+    position: absolute;
+    left: 100%;
+    top:70%;
+}
+.blue-title-span{
+    display: flex;
+    align-items: center !important;
+    width: 100% !important;
+}
+.pink-column-title{
+    height: 187px;
+}
+.pink-top{
+    .pink-column{
+        .inner-your-best-contributtion-column{
+            .item{
+                height: 850px;
+            }
+        }
+    }
+}
+.prices-star{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 655px;
+    left: 35px;
+    justify-content: center;
+    height: 8px;
+}
+.pink-price{
+    margin-bottom: 25px !important;
+}
+.sale{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #EF5350;
+    border-top-left-radius: 33px;
+    border-bottom-left-radius: 33px;
+    width: 30%;
+    height: 35px;
+    position: relative;
+    left: 55px !important;
+    top: -28px !important;
+    p{
+        font-family: 'Montserrat arm' !important;
+        position: relative;
+        margin-top: 15px !important;
+        display: flex;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 20px;
+        color: #F8F8F8;
+    }
+}
+.sale-text{
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+}
+.your-best-contributtion{
+    background-image: url('../../../images/article/section_your_best_contribution/inner_your_best_contribution_background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 750px;
+    *{
+        font-family: 'Montserrat arm' !important;
+    }
+}
+.item-hr{
+    background-color: #0D1821;
+    height: 0.5px;
+    margin-top: 5px;
+    margin-bottom: 32px;
+}
+.pink-hr{
+    background-color: #0D1821;
+    height: 0.5px;
+    width: 100%;
+    margin-top: 2.2135416666666665vw;
+}
+.pink-lists{
+    li::before{
+        content: '\25CF';
+        color: #B06FD3;
+        position: absolute;
+        margin-left: -15px;
+    }
+}
+.green-lists{
+    li::before{
+        content: '\25CF';
+        color: #56BC93;
+        position: absolute;
+        margin-left: -15px;
+    }
+}
+.blue-lists{
+    li::before{
+        content: '\25CF';
+        color: #4F71C4;
+        position: absolute;
+        margin-left: -15px;
+    }
+}
+.your-best-contributtion{
+    width: 100%;
+    margin-top: 220px;
+    padding: 70px;
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .your-best-contributtion-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        top: -275px;
+    }
+    .section-title{
+        font-family: 'Montserrat', sans-serif !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #F8F8F8;
+        text-align: center !important;
+        position: relative !important;
+        top: -305px;
+    }
+    .inner-your-best-contributtion{
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 5px;
+        justify-content: space-around;
+        margin-top: -275px;
+        margin-bottom: 150px !important;
+        .to-append{
+            display: flex;
+            flex-direction: column;
+            width: 452px;
+            height: 710px;
+            // height: 800px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 10px rgba(13, 24, 33, 0.05);
+            border-radius: 12px;
+            .inner-your-best-contributtion-column-title{
+                width: 100%;
+                height: 56px;
+                box-shadow: 0px 4px 10px rgba(13, 24, 33, 0.05);
+                border-radius: 12px 12px 0px 0px;
+                font-family: 'Montserrat', sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #F8F8F8;
+            }
+            .pink-title{
+                font-family: 'Montserrat', sans-serif !important;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 17px;
+                line-height: 24px;
+                color: #F8F8F8;
+                background:#BB6BD9;
+            }
+            .pink-price{
+                color: #BB6BD9;
+            }
+            .green-price{
+                color:#00BF90;
+            }
+            .blue-price{
+                color: #4472CA;
+            }
+            .price-for-lesson{
+                font-family: 'Montserrat', sans-serif !important;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 39px;
+            }
+            .green-title{
+                background-color: #00BF90;
+                font-family: 'Montserrat', sans-serif !important;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 17px;
+                line-height: 24px;
+                color: #F8F8F8;
+            }
+            .blue-title{
+                font-family: 'Montserrat', sans-serif !important;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 17px;
+                line-height: 24px;
+                color: #F8F8F8;
+                background-color: #4472CA;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                p{
+                    position: relative;
+                    top: 12%;
+                }
+            }
+            .inner-your-best-contributtion-column{
+                display: flex;
+                width: 100%;
+                height: 766px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                overflow: hidden;
+                .item{
+                    height: 100%;
+                    padding: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    .inner-your-best-contributtion-column-bottom-title{
+                        width: 100%;
+                        .free-lesson{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            font-style: normal;
+                            font-weight: 600;
+                            // font-size: 14px;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #102231;
+                            font-family: 'Montserrat', sans-serif;
+                        }    
+                    }
+                    .inner-your-best-contributtion-column-lists{
+                        font-style: normal;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 500;
+                        height: 320px;
+                        display: flex;
+                        flex-direction: column;
+                        grid-gap: 25px;
+                        // font-size: 18px;
+                        font-size: 15px;
+                        line-height: 18px;
+                        // line-height: 32px;
+                        margin-bottom: 75px;
+                        position: relative;
+                        top: -45px;
+                        color: #4E565C;
+                        list-style-type: none;
+                        padding:15px;
+                    }
+                    .inner-your-best-contributtion-column-bottom-title{
+                        display: flex;
+                        flex-direction: column;
+                        .prices{
+                            position: relative;
+                            top: -15px;
+                            margin-bottom: 12px;
+                        }
+                        .prices-prices{
+                            width: 67%;
+                        }
+                        span{
+                            display: flex;
+                            justify-content: space-between;
+                            width: 80%;
+                        }
+                    }
+                    button{
+                        width: 354px;
+                        height: 68px;
+                        border-radius: 50px;
+                        border: none;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #F8F8F8;
+                        //
+                        position: relative;
+                        top: -90px;
+                    }
+                    .pink-button{
+                        background: #BB6BD9;
+                        box-shadow: 0px 10px 20px rgba(187, 107, 217, 0.3);
+                    }
+                    .green-button{
+                        background: #00BF90;
+                        box-shadow: 0px 10px 20px rgba(0, 191, 144, 0.3);
+                    }
+                    .blue-button{
+                        background: #4472CA;
+                        box-shadow: 0px 10px 20px rgba(68, 114, 202, 0.3);
+                    }
+                }
+            }
+        }
+    }
+}
+/* Media Rules */
+@media (min-width:1670px){
+    .inner-your-best-contributtion{
+        width: 1050px;
+    }
+}
+@media (max-width:1497px){
+    .your-best-contributtion{
+        margin-top: 95px !important;
+    }
+    .inner-your-best-contributtion-columns-blue{
+        margin-top: 10px;
+    }
+    .pink-hr{
+        margin-top: 4px !important;
+    }
+    .pink-lists{
+        position: relative !important;
+        top: -36px !important;
+    }
+}
+@media (max-width:1140px){
+    .inner-your-best-contributtion-columns-green{
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+}
+@media (max-width:668px){
+    .blue-top::after{
+        height: 5.54px;
+        width: 38.02px;
+        background-size: cover;
+        position: absolute;
+        left: 75%;
+        top:108%;
+    }
+}
+@media (min-width:1497px){
+    .sale{
+        left: 35px !important;
+        p{
+            font-family: 'Montserrat arm';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12.5px;
+            line-height: 20px;
+            color: #F8F8F8;
+        }
+    }
+    .your-best-contributtion-header{
+        img{
+            position: relative !important;
+            top: 115px !important;
+            left: -45px;
+            height: 157px !important;
+            width: 157px !important;
+        }
+    }
+    .free-lesson{
+        font-size: 15px !important;
+    }
+    .pink-price{
+        position: relative !important;
+        top: 34px !important;
+    }
+    .your-best-contributtion{
+        padding: 100px;
+    }
+    .pink-price{
+        margin-top: -32px !important;
+    }
+    .to-append{
+        width: 330px !important;
+    }
+    .inner-your-best-contributtion-column-title{
+        width: 330px !important;
+    }
+}
+@media (max-width:829px){
+    .inner-your-best-contributtion{
+        grid-gap: 5px !important;
+    }   
+}
+@media (max-width:728px){
+    .your-best-contributtion{
+        .section-title{
+            margin-top: 75px !important;
+        }
+    }
+}
+@media (max-width:768px){
+    .prices-prices{
+        width: 56% !important;
+    }
+    .price-for-lesson{
+        font-size: 15px !important;
+    }
+}
+@media (max-width:607px){
+    .your-best-contributtion{
+        position: relative !important;
+        margin-top: 175px !important;
+        bottom: 105px !important;
+    }
+    .inner-your-best-contributtion-column-button{
+        height: 50px !important;
+    }
+}
+@media (max-width:453px){
+    .your-best-contributtion{
+        .section-title{
+            position: relative;
+            top: -325px !important;
+        }
+    }
+}
+@media (max-width:425px){
+    .inner-your-best-contributtion-column-lists{
+        height: auto !important;
+    }
+    .pink-top{
+        height: auto !important;
+    }
+    .inner-your-best-contributtion-column{
+        height: auto !important;
+    }
+}
+@media (max-width:444px){
+    .to-append , .inner-your-best-contributtion-column-title{
+        width: 322px !important;
+    }
+    .inner-your-best-contributtion-column-button{
+        width: 195px !important;
+        font-size: 2.5vw !important;
+        margin-top: -35px !important;
+    }
+    .blue-lists , .pink-lists , .green-lists{
+        grid-gap: 0 !important;
+        font-size: 15px !important;
+    }
+    .prices-prices{
+        width: 50% !important;
+    }
+    .sale{
+        left: 25px !important;
+    }
+}
+@media (max-width:425px){
+    .your-best-contributtion{
+        position: relative !important;
+        .your-best-contributtion-header{
+            .section-title{
+                border: 1px solid red !important;
+                position: relative !important;
+                top: 75px !important;
+                margin-top: 111px !important;
+                
+            }
+        }
+    }
+    .pink-top{
+        .inner-your-best-contributtion-column{
+            height: 418px !important;
+        }
+    }
+    .green-top{
+        height: auto !important;
+        .inner-your-best-contributtion-column{
+            height: 488px !important;
+        }
+    }
+    .blue-top{
+        height: auto !important;
+        .inner-your-best-contributtion-column{
+            height: 498px !important;
+        }
+    }
+}
+@media (max-width:377px){
+    .blue-top::after{
+        height: 5.54px;
+        width: 40.02px;
+        background-size: cover;
+        position: absolute;
+        left: 75%;
+        top:103%;
+    }
+}
+@media (max-width:345px){
+    .sale{
+        .sale-text{
+            font-size: 15px !important;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+article{
+    position: relative;
+    top: 135px;
+}
+.section-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: #F8F8F8;
+    text-align: center;
+}
+.section-title > b{
+    color: #56BC93;
+    font-weight: bold;
+}

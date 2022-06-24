@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Montserrat arm";
+  src: url("../fonts/montserrat-arm/Montserratarm-Medium.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2B267A), to(#645AC2)) !important;
+  background: linear-gradient(180deg, #2B267A 0%, #645AC2 100%) !important;
+}
+
+.anim-button {
+  -webkit-animation: buttons 8s infinite linear;
+          animation: buttons 8s infinite linear;
+}
+
+@-webkit-keyframes buttons {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes buttons {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+body {
+  background: url("../../assets/images/document/body-background.png") !important;
+  background-size: cover !important;
+  height: auto;
+}
+
+.block {
+  -webkit-transition: 0.5s all !important;
+  transition: 0.5s all !important;
+}
+
+.blue-planet {
+  -webkit-animation: rotation 13s infinite linear;
+          animation: rotation 13s infinite linear;
+}
+
+.rotate-planet {
+  -webkit-animation: rotation 13s infinite linear;
+          animation: rotation 13s infinite linear;
+}
+
+.rotate-people {
+  -webkit-animation: rotationPeople 3s infinite linear;
+          animation: rotationPeople 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes rotationPeople {
+  from {
+    position: relative;
+  }
+  to {
+    position: relative;
+  }
+}
+@keyframes rotationPeople {
+  from {
+    position: relative;
+  }
+  to {
+    position: relative;
+  }
+}
+@-webkit-keyframes star {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes star {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+button {
+  cursor: pointer !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.star-vector {
+  -webkit-animation: star 3s infinite linear;
+          animation: star 3s infinite linear;
+}

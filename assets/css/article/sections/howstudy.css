@@ -1,0 +1,835 @@
+.span-toggle-second {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.span-toggle-second h1 {
+  text-align: left;
+}
+.span-toggle-second p {
+  width: 100%;
+  text-align: left;
+}
+
+.how-study {
+  position: relative;
+  width: 100%;
+}
+.how-study .section-title {
+  text-align: center;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.how-study .how-study-child {
+  margin-top: 255px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.how-study .how-study-child img {
+  max-width: 90%;
+}
+.how-study .how-study-child .how-study-planets {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+.how-study .how-study-child .how-study-planets div span {
+  margin-top: 35px;
+  font-family: "Montserrat arm";
+  grid-gap: 15px;
+  width: 200px;
+  top: 195px;
+  left: 15px;
+}
+.how-study .how-study-child .how-study-planets div span h1 {
+  color: #4472CA;
+  font-size: 2.734375vw;
+}
+.how-study .how-study-child .how-study-planets div span p {
+  font-size: 1.3020833333vw !important;
+}
+.how-study .how-study-child .how-study-planets div img {
+  height: auto;
+  width: auto;
+}
+.how-study .how-study-child .how-study-planets .rotate-saturn-planet {
+  position: relative;
+  top: -285px;
+  left: -25px;
+  margin-left: 9px;
+}
+.how-study .how-study-child .how-study-planets .rotate-red-planet {
+  position: relative;
+  top: -85px;
+  left: -95px;
+}
+.how-study .how-study-child .how-study-planets .rotate-blue-planet {
+  position: relative;
+  top: -340px;
+}
+.how-study .how-study-child .how-study-planets .rotate-blue-planet span {
+  margin-top: 35px !important;
+}
+.how-study .how-study-child .how-study-planets .rotate-yellow-planet {
+  position: relative;
+  top: -205px;
+  left: -5px !important;
+}
+.how-study .how-study-child .how-study-planets .rotate-yellow-planet span {
+  left: -18.2083333333vw;
+}
+.how-study .how-study-child .how-study-planets .rotate-yellow-planet span p {
+  margin-top: 10px;
+}
+.how-study .how-study-child .how-study-planets .rotate-yellow-planet img {
+  width: 300px;
+}
+.how-study .planets-footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  grid-gap: 75px;
+}
+.how-study .planets-footer span:nth-child(1) {
+  margin-left: 8px !important;
+}
+.how-study .planets-footer span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 80%;
+  height: auto !important;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  grid-gap: 15px;
+  color: white;
+  top: 195px;
+  left: 15px;
+}
+.how-study .planets-footer span h1 {
+  color: #4472CA;
+}
+
+.to-cosmos {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 98%;
+  top: 0;
+}
+
+@media (max-width: 1402px) {
+  .rotate-yellow-planet {
+    position: relative !important;
+    margin-left: 75px !important;
+  }
+  .rotate-yellow-planet span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 85px !important;
+    left: 85px !important;
+  }
+  .rotate-yellow-planet span h1 {
+    text-align: right;
+  }
+}
+@media (min-width: 1738px) {
+  .planet-one {
+    position: relative !important;
+    left: 75px !important;
+  }
+}
+@media (min-width: 1775px) {
+  .planet-one {
+    position: relative !important;
+    margin-left: 35px !important;
+  }
+}
+@media (min-width: 1497px) {
+  .how-study .section-title {
+    position: relative;
+    top: 125px;
+  }
+
+  .to-cosmos {
+    top: 125px;
+    left: 1%;
+  }
+  .to-cosmos img {
+    position: absolute !important;
+    height: 236px;
+    width: 236px;
+  }
+}
+@media (max-width: 1900px) {
+  .rotate-yellow-planet {
+    left: -10px !important;
+    width: 200px;
+    top: -175px !important;
+  }
+}
+@media (max-width: 1711px) {
+  .rotate-yellow-planet {
+    left: -10px !important;
+    width: 200px;
+    top: -255px !important;
+  }
+}
+@media (max-width: 1606px) {
+  .rotate-yellow-planet {
+    left: 50px !important;
+    width: 200px;
+    top: -225px !important;
+  }
+}
+@media (max-width: 1469px) {
+  .rotate-saturn-planet {
+    left: -4.5572916667vw !important;
+  }
+}
+@media (max-width: 1311px) {
+  .rotate-blue-planet {
+    left: 50px !important;
+    top: -250px !important;
+  }
+
+  .span-toggle-fourth {
+    margin-left: 55px !important;
+  }
+
+  .rotate-saturn-planet {
+    width: 200px !important;
+    left: -4.5572916667vw !important;
+    top: -255px !important;
+  }
+
+  .rotate-red-planet {
+    margin-left: 55px !important;
+  }
+
+  .rotate-blue-planet {
+    margin-top: -3.5807291667vw !important;
+  }
+}
+@media (max-width: 1266px) {
+  .how-study {
+    margin-top: 155px !important;
+  }
+}
+@media (max-width: 1206px) {
+  .rotate-saturn-planet {
+    position: relative !important;
+    margin-left: -25px !important;
+  }
+
+  .rotate-red-planet img {
+    position: relative !important;
+    margin-left: -15px !important;
+  }
+
+  .rotate-blue-planet {
+    position: relative !important;
+    margin-top: -10px !important;
+    margin-left: -205px !important;
+    margin-right: -170px !important;
+  }
+
+  .rotate-yellow-planet {
+    width: 200px;
+    position: absolute !important;
+    left: -550px;
+    margin-left: -255px !important;
+  }
+  .rotate-yellow-planet img {
+    position: absolute !important;
+    margin-left: -425px !important;
+  }
+}
+@media (max-width: 1201px) {
+  .how-study {
+    position: relative !important;
+    margin-top: -195px !important;
+  }
+}
+@media (max-width: 1198px) {
+  .rotate-saturn-planet {
+    width: 200px !important;
+    left: -3.5572916667vw !important;
+    top: -255px !important;
+  }
+}
+@media (max-width: 1311px) {
+  .span-toggle-first {
+    display: none !important;
+  }
+
+  .span-toggle-second {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+
+  .rotate-blue-planet {
+    left: -10px;
+    width: 130px !important;
+  }
+  .rotate-blue-planet img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .rotate-red-planet {
+    left: -124px !important;
+  }
+  .rotate-red-planet img {
+    left: -58px !important;
+  }
+
+  .rotate-yellow-planet {
+    margin-left: 76px !important;
+  }
+  .rotate-yellow-planet img {
+    margin-left: 76px !important;
+  }
+}
+@media (min-width: 1311px) {
+  .span-toggle-first {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+
+  .span-toggle-second {
+    display: none !important;
+  }
+}
+@media (max-width: 1300px) {
+  .rotate-blue-planet {
+    left: 100px !important;
+    width: 130px !important;
+    top: -285px !important;
+  }
+  .rotate-blue-planet img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+
+  .rotate-yellow-planet {
+    margin-left: 96px !important;
+    position: relative !important;
+    left: 125px !important;
+  }
+  .rotate-yellow-planet img {
+    height: 100px !important;
+    width: 100px !important;
+    margin-left: 76px !important;
+    position: relative !important;
+    left: 70px !important;
+    top: 75px !important;
+  }
+}
+@media (max-width: 1040px) {
+  .rotate-saturn-planet {
+    margin-top: 25px !important;
+  }
+
+  .rotate-blue-planet {
+    margin-top: 20px !important;
+  }
+
+  .rotate-red-planet {
+    margin-left: 75px !important;
+  }
+}
+@media (max-width: 993px) {
+  .how-study {
+    position: relative !important;
+  }
+}
+@media (max-width: 1409px) {
+  .rotate-yellow-planet {
+    position: relative !important;
+    left: 5px !important;
+  }
+  .rotate-yellow-planet span {
+    margin-left: 321px !important;
+  }
+}
+@media (max-width: 941px) {
+  .how-study {
+    position: relative !important;
+  }
+}
+@media (max-width: 939px) {
+  .dotted-vector {
+    width: 750px;
+  }
+
+  .rotate-yellow-planet {
+    width: 120px !important;
+    height: 50px !important;
+    top: -155px !important;
+    height: 95px;
+    left: -220px !important;
+  }
+  .rotate-yellow-planet img {
+    position: relative !important;
+    left: -35px !important;
+    top: 15px !important;
+  }
+
+  .rotate-blue-planet {
+    left: 25px !important;
+    top: -250px !important;
+  }
+
+  .rotate-red-planet {
+    width: 100px;
+    top: -55px !important;
+    height: 95px;
+    left: -140px !important;
+  }
+
+  .rotate-saturn-planet {
+    width: 200px !important;
+    left: -3.5572916667vw !important;
+    top: -185px !important;
+  }
+
+  .to-cosmos {
+    top: 55px !important;
+    height: 195px !important;
+  }
+}
+@media (max-width: 886px) {
+  .rotate-yellow-planet {
+    width: 120px !important;
+    height: 50px !important;
+    top: -155px !important;
+    height: 95px;
+    left: -220px !important;
+  }
+  .rotate-yellow-planet img {
+    position: relative !important;
+    left: -15px !important;
+    height: 100px !important;
+    width: 100px !important;
+    top: 25px !important;
+  }
+}
+@media (max-width: 868px) {
+  .rotate-saturn-planet {
+    width: 200px !important;
+    left: -5.5572916667vw !important;
+    top: -185px !important;
+  }
+}
+@media (max-width: 829px) {
+  .rotate-saturn-planet {
+    width: 150px !important;
+    left: -14.5572916667vw !important;
+    top: -195px !important;
+    margin-left: 75px !important;
+  }
+}
+@media (max-width: 768px) {
+  .how-study {
+    top: -225px !important;
+  }
+  .how-study .planets-footer {
+    grid-gap: 5px !important;
+  }
+  .how-study span {
+    font-size: 15px !important;
+  }
+  .how-study .rotate-yellow-planet {
+    width: 100px;
+    top: -105px !important;
+    height: 95px;
+  }
+  .how-study .rotate-yellow-planet img {
+    position: relative !important;
+    left: -25px !important;
+    top: -25px !important;
+  }
+}
+@media (max-width: 757px) {
+  .rotate-blue-planet {
+    top: -220px !important;
+  }
+}
+@media (max-width: 721px) {
+  .rotate-blue-planet {
+    width: 100px !important;
+    left: -70px !important;
+    top: -140px !important;
+  }
+
+  .rotate-saturn-planet {
+    width: 100px !important;
+    left: -24.5572916667vw !important;
+    top: -145px !important;
+    margin-left: 75px !important;
+  }
+}
+@media (max-width: 720px) {
+  .dotted-vector {
+    width: 75.8072916667vw;
+  }
+
+  .rotate-saturn-planet img {
+    height: 80px !important;
+    margin-left: -25px !important;
+  }
+
+  .rotate-red-planet img {
+    height: 80px !important;
+    margin-left: -35px !important;
+  }
+
+  .rotate-blue-planet img {
+    width: 80px !important;
+    height: 80px !important;
+    margin-left: 35px !important;
+    margin-top: -55px !important;
+  }
+
+  .rotate-yellow-planet {
+    width: 100px;
+    top: -105px !important;
+    height: 95px;
+    left: -25px !important;
+  }
+  .rotate-yellow-planet img {
+    position: relative !important;
+    left: -75px !important;
+    top: -25px !important;
+  }
+
+  .rotate-saturn-planet {
+    width: 200px !important;
+    left: -5.5572916667vw !important;
+    top: -155px !important;
+  }
+}
+@media (max-width: 703px) {
+  .how-study {
+    margin-top: -150px;
+  }
+  .how-study .section-title {
+    font-size: 23px !important;
+  }
+}
+@media (max-width: 701px) {
+  .how-study {
+    position: relative !important;
+  }
+}
+@media (max-width: 661px) {
+  .how-study-child::before {
+    position: absolute;
+    background-size: 50px 50px !important;
+    height: 50px !important;
+    width: 50px !important;
+    color: white;
+    margin-top: -268px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+@media (max-width: 686px) {
+  .rotate-yellow-planet img {
+    margin-top: 35px;
+    width: 85px !important;
+    height: 85px !important;
+  }
+}
+@media (max-width: 659px) {
+  .rotate-yellow-planet {
+    left: -550px;
+  }
+  .rotate-yellow-planet img {
+    position: relative !important;
+    margin-left: 10.8828125vw !important;
+  }
+}
+@media (max-width: 616px) {
+  .rotate-blue-planet {
+    margin-top: 55px !important;
+  }
+}
+@media (max-width: 603px) {
+  .dotted-vector {
+    width: 75.8072916667vw;
+  }
+
+  .rotate-yellow-planet {
+    width: 100px;
+    top: -75px !important;
+    height: 95px;
+    margin-left: 135px !important;
+  }
+
+  .rotate-blue-planet {
+    position: relative;
+    left: -55px !important;
+  }
+}
+@media (max-width: 555px) {
+  .rotate-blue-planet img {
+    height: 60px !important;
+    width: 60px !important;
+  }
+}
+@media (max-width: 495px) {
+  .rotate-saturn-planet {
+    margin-left: 75px !important;
+  }
+}
+@media (max-width: 493px) {
+  .how-study {
+    top: -255px !important;
+  }
+}
+@media (max-width: 483px) {
+  .rotate-saturn-planet {
+    position: relative !important;
+  }
+  .rotate-saturn-planet img {
+    margin-top: 25px !important;
+    height: 60px !important;
+    width: 100px !important;
+  }
+
+  .rotate-blue-planet {
+    margin-top: 85px !important;
+    height: 60px !important;
+    width: 100px !important;
+  }
+
+  .rotate-yellow-planet {
+    height: 60px !important;
+    width: 100px !important;
+  }
+}
+@media (max-width: 453px) {
+  .how-study {
+    position: relative !important;
+    top: -325px !important;
+  }
+
+  .to-cosmos {
+    margin-top: 75px !important;
+    height: 105px !important;
+  }
+
+  .how-study-child::before {
+    top: 2325px !important;
+  }
+
+  .dotted-vector {
+    width: 75.8072916667vw;
+  }
+
+  .rotate-yellow-planet {
+    width: 100px;
+    top: -55px !important;
+    height: 95px;
+    left: -15px !important;
+  }
+
+  .how-study-child::before {
+    position: absolute;
+    color: white;
+    margin-left: 24.4140625vw !important;
+    margin-top: -498px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    content: "";
+  }
+
+  .section-title {
+    position: relative !important;
+    top: 75px !important;
+  }
+}
+@media (max-width: 425px) {
+  .how-study {
+    position: relative !important;
+    top: -320px !important;
+  }
+
+  .how-study-child {
+    margin-top: 55px !important;
+  }
+
+  .how-study {
+    margin-bottom: 295px !important;
+  }
+
+  .how-study-planets {
+    position: relative !important;
+    top: 601px !important;
+  }
+
+  .to-cosmos {
+    margin-top: 520px !important;
+    height: 55px !important;
+  }
+
+  .dotted-vector {
+    position: relative !important;
+    top: 601px !important;
+  }
+}
+@media (max-width: 377px) {
+  .how-study-child::before {
+    position: absolute;
+    color: white;
+    margin-left: 220px !important;
+    margin-top: -498px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    content: "";
+  }
+}
+@media (max-width: 444px) {
+  .rotate-saturn-planet img {
+    height: 35px !important;
+    width: 55px !important;
+    margin-top: 65px !important;
+  }
+
+  .rotate-red-planet img {
+    height: 35px !important;
+    width: 35px !important;
+    margin-top: 35px !important;
+  }
+
+  .rotate-blue-planet img {
+    position: relative !important;
+    left: -32px !important;
+    top: -15px !important;
+    height: 35px !important;
+    width: 35px !important;
+  }
+
+  .rotate-yellow-planet {
+    position: relative !important;
+    left: 75px !important;
+    margin-left: 25px !important;
+  }
+  .rotate-yellow-planet img {
+    position: relative !important;
+    left: -8px !important;
+    height: 35px !important;
+    width: 35px !important;
+  }
+}
+@media (max-width: 414px) {
+  .rotate-blue-planet img {
+    position: relative !important;
+    left: -32px !important;
+    top: -5px !important;
+    height: 35px !important;
+    width: 35px !important;
+  }
+
+  .rotate-red-planet img {
+    position: relative !important;
+    left: -75px !important;
+  }
+}
+@media (max-width: 395px) {
+  .rotate-yellow-planet {
+    position: relative !important;
+    left: 75px !important;
+    margin-left: 55px !important;
+  }
+  .rotate-yellow-planet img {
+    position: relative !important;
+    left: -8px !important;
+    height: 35px !important;
+    width: 35px !important;
+  }
+}
+@media (max-width: 370px) {
+  .rotate-yellow-planet img {
+    position: relative !important;
+    left: -8px !important;
+    height: 35px !important;
+    width: 35px !important;
+  }
+
+  .rotate-blue-planet {
+    margin-left: -195px !important;
+    margin-top: 95px !important;
+  }
+
+  .rotate-red-planet {
+    margin-left: 105px !important;
+  }
+}
+@media (max-width: 357px) {
+  .rotate-blue-planet {
+    margin-top: 95px !important;
+  }
+}

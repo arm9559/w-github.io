@@ -1,0 +1,143 @@
+.navbar {
+  background: #2C2878 !important;
+  background-origin: content-box;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+.navbar .col-11 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.button-item-nav {
+  width: auto !important;
+}
+.button-item-nav a button {
+  position: relative !important;
+  top: 5px !important;
+}
+
+.nav-to-left {
+  position: relative !important;
+  left: -35px !important;
+  top: 5px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+nav .container a {
+  font-family: "Montserrat arm" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 22px !important;
+  color: #F8F8F8 !important;
+}
+nav .container a img {
+  height: 46px;
+  width: 134px;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav ul li button {
+  width: 10.3697916667vw;
+  height: 5.756232687vh;
+  background: #00BF90;
+  -webkit-box-shadow: 2px 4px 30px rgba(0, 191, 144, 0.3);
+          box-shadow: 2px 4px 30px rgba(0, 191, 144, 0.3);
+  border-radius: 28px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 24px;
+  color: #F8F8F8;
+  margin-left: -8px;
+}
+
+@media (max-width: 911px) {
+  nav ul li a {
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 699px) {
+  nav ul {
+    grid-gap: 5px !important;
+  }
+  nav ul li a {
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    padding: 25px !important;
+  }
+  .navbar .col-11 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+  .navbar ul {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .navbar ul li a {
+    font-size: 15px !important;
+  }
+  .navbar ul .nav-item {
+    bottom: 0px !important;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .navbar ul .button-item-nav a button {
+    width: 175px !important;
+    margin-left: 0px !important;
+    font-size: 15px !important;
+  }
+}

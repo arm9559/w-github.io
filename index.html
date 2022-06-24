@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Document</title>
+     <!-- Swiper Style -->
+     <link rel="stylesheet" href="./assets/styles/swiper/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+     <script>
+         window.console = window.console || function(t) {};
+     </script>
+     <script>
+         if (document.location.search.match(/type=embed/gi)) {
+         window.parent.postMessage("resize", "*");
+         }
+     </script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/document.css"/>
+    <link rel="stylesheet" href="assets/css/nav/nav.css"/>
+    <link rel="stylesheet" href="assets/css/article/article.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/whyus.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/howstudy.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/whyattendinclass.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/counts.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/questionsblockchild.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/swiperslider.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/pricelist.css"/>
+    <link rel="stylesheet" href="assets/css/article/sections/cosmoform.css"/>
+    <link rel="stylesheet" href="assets/css/main/main.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer.css"/>
+    <link rel="stylesheet" href="assets/css/mobile.css"/>
+    <link rel="stylesheet" href="assets/css/web.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-transparent fixed-top">
+        <div class="container col-11">
+            <a href="/" class="navbar-brand">
+                <img src="./assets/images/header/kos-logo.png" alt="Logo" class=""/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-to-left">
+                    <a href="#blockOne" class="nav-link active block">
+                        Կարծիքներ
+                    </a>
+                </li>
+                <li class="nav-item block-two nav-to-left">
+                    <a href="#blockTwo" class="nav-link active block">
+                        Ինչու՞ հենց KOS
+                    </a>
+                </li>
+                <li class="nav-item nav-to-left">
+                    <a href="#blockTree" class="nav-link active block">
+                        Գնացուցակ
+                    </a>
+                </li>
+                <li class="nav-item button-item-nav">
+                    <a href="#blockFour">
+                        <button class="anim-button">ԳՐԱՆՑՎԵԼ</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <main class="col-12">
+        <div class="col-12 main-child">
+            <div class="background-item col-10">
+                <div class="background-white col-12">
+                    <div class="inner">
+                        <p class="inner-title">
+                            Անգլերենի <b>առցանց դասընթաց՝</b> 3-15 <br/>տարեկան երեխաների համար:
+                        </p>
+                        <p class="inner-text">
+                            Բարի գալուստ Քարհանյան օնլայն դպրոց:<br/>
+                            Սովորե՛ք մեզ հետ աշխարհի ցանկացած կետից Ձեզ հարմար ժամին:
+                        </p>
+                        <button class="inner-button anim-button">
+                            ԳՐԱՆՑՎԵԼ ՓՈՐՁՆԱԿԱՆ ԴԱՍԻՆ
+                        </button>
+                    </div> 
+                </div>
+            </div>
+            <div class="cosmo-people-container">
+                <div class="cosmo-people-text">
+                    <p>
+                        Ողջո՜ւյն, ես KOSmo-ն եմ՝ քո նոր ընկերը <br/>KOS մոլորակից:
+                    </p>
+                    <img src="./assets/images/main/cosmo-title-vector.png" alt="">
+                </div>
+                <div class="cosmo-people">
+                    <img src="./assets/images/main/cosmo.png" alt="" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer col-12">
+            <img src="./assets/images/main/yellow-planet-right.png" alt="Yellow Planet" class="img-fluid"/>
+        </div>
+    </main>
+    <article>
+        <section class="why-us container col-11">
+            <a id="blockTwo" class="block"></a>
+            <h2 class="section-title" id="section-title">
+                ԻՆՉՈՒ՞ ՀԵՆՑ <b>KOS</b>
+            </h2>
+            <div class="why-us-child">
+                <div class="why-us-child-items">
+                    <div class="items">
+                        <div class="item">
+                            <span class="item-header">
+                                <img src="./assets/images/article/section_why_us/clock.png" alt="Image">
+                                <b>Խնայի՛ր ժամանակ և գումար</b>
+                            </span>
+                            <span class="item-footer">
+                                <p>
+                                    Ժամանակի և գումարի արդյունավետ տնօրինում:
+                                </p>
+                            </span>
+                        </div>
+                        <div class="item">
+                            <span class="item-header">
+                                <img src="./assets/images/article/section_why_us/clock_group.png" alt="Image">
+                                <b>Ճկուն գրաֆիկ</b>
+                            </span>
+                            <span class="item-footer">
+                                <p>
+                                    Դասերի ինտենսիվությունը, օրերը և ժամերը որոշում եք Դուք՝ ըստ Ձեր և ուսուցչի զբաղվածության
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <span class="item-header">
+                                <img src="./assets/images/article/section_why_us/rising.png" alt="Image">
+                                <b>Սահմանված բարձր նշաձող</b>
+                            </span>
+                            <span class="item-footer">
+                                <p>
+                                    Ուսուցիչները պարբերաբար մասնակցում են վերապատրաստումների, ինչն էլ հնարավորություն է տալիս ուսուցման գործընթացը դարձնել առավել վառ և հետաքրքիր:
+                                </p>
+                            </span>
+                        </div>
+                        <div class="item">
+                            <span class="item-header">
+                                <img src="./assets/images/article/section_why_us/docs.png" alt="Image">
+                                <b>Հատուկ մշակված ծրագիր</b>
+                            </span>
+                            <span class="item-footer">
+                                <p>
+                                    Ծրագիրը կազմվել է Oxford_ի և Cambridge_ի գրականության հիման վրա՝ ինչը անգլերենի ուսուցման ոսկե ստանդարտն է ողջ աշխարհում
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <span class="item-header">
+                                <img src="./assets/images/article/section_why_us/result.png" alt="Image">
+                                <b>Երաշխավորված արդյունք</b>
+                            </span>
+                            <span class="item-footer">
+                                <p>
+                                    Ուսուցիչ-աշակերտ արդյունավետ համագործակցության և անհատական մոտեցման շնորհիվ երեխան կունենա տեսանելի առաջընթաց:
+                                </p>
+                            </span>
+                        </div>
+                        <div class="item">
+                            <span class="item-header">
+                                <img src="./assets/images/article/section_why_us/premium.png" alt="Image">
+                                <b>Ինտերակտիվ և խաղային դասեր</b>
+                            </span>
+                            <span class="item-footer">
+                                <p>
+                                    Ինտերակտիվ և խաղային դասերի շնորհիվ զարգանում է երեխայի մտածողությունը և ճանաչողական ակտիվությունը:
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="display">
+                    <img src="./assets/images/article/section_why_us/star-vector.png" alt="Image" class="display-star-one star-vector">
+                    <div class="background">
+                        <img src="./assets/images/article/section_why_us/macbook.png" alt="" class="img-fluid"/>
+                    </div>
+                    <img src="./assets/images/article/section_why_us/star-vector.png" alt="Image" class="display-star-two star-vector">
+                </div>
+            </div>
+        </section>
+        <section class="how-study">
+            <h2 class="section-title text-center" id="section-title">Ինչպես սկսել</h2>
+            <div class="how-study-child">
+            <div class="to-cosmos">
+                <img src="./assets/images/article/section_how_study/cosmos.png" alt="Cosmos" class="img-fluid">
+            </div>
+            <img src="./assets/images/article/section_how_study/dotted_vector.png" alt="Dotted Vector" class="dotted-vector">
+                <div class="how-study-planets">
+                    <div class="planet-one rotate-saturn-planet">
+                        <img src="./assets/images/article/section_how_study/planet_one.png">
+                        <span class="span-toggle-first to-left-span">
+                            <h1>1</h1>
+                            <p>Լրացրե՛ք անվճար <br/>փորձնական դասի հայտը:</p>
+                        </span>
+                    </div>
+                    <div class="planet-two rotate-red-planet">
+                        <img src="./assets/images/article/section_how_study/planet_two.png" class="rotate-planet">
+                        <span class="span-toggle-first">
+                            <h1>2</h1>
+                            <p>Ծանոթացե՛ք Ձեր անհատական օգնականի հետ և ստացե՛ք մանրամասն խորհրդատվություն:</p>
+                        </span>
+                    </div>
+                    <div class="planet-tree rotate-blue-planet">
+                        <img src="./assets/images/article/section_how_study/planet_tree.png" class="rotate-planet">
+                        <span class="span-toggle-first">
+                            <h1>3</h1>
+                            <p>Մասնակցե՛ք Փորձնական դասին և ուսուցչի հետ սահմանե՛ք կրթական նպատակներն ու դասերի ժամանակացույցը:</p>
+                        </span>
+                    </div>
+                    <div class="planet-four rotate-yellow-planet">
+                        <img src="./assets/images/article/section_how_study/planet_four.png" class="rotate-planet">
+                        <span class="span-toggle-first span-toggle-fourth">
+                            <h1>4</h1>
+                             <p>Վճարե՛ք և սովորե՛ք հաճույքով:</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="planets-footer">
+                    <span class="span-toggle-second">
+                        <h1>1</h1>
+                        <p>Լրացրե՛ք անվճար փորձնական դասի հայտը:</p>
+                    </span>
+                    <span class="span-toggle-second">
+                        <h1>2</h1>
+                        <p>Ծանոթացե՛ք Ձեր անհատական օգնականի հետ և ստացե՛ք մանրամասն խորհրդատվություն:</p>
+                    </span>
+                    <span class="span-toggle-second">
+                        <h1>3</h1>
+                        <p>Մասնակցե՛ք Փորձնական դասին և ուսուցչի հետ սահմանե՛ք կրթական նպատակներն ու դասերի ժամանակացույցը:</p>
+                    </span>
+                    <span class="span-toggle-second">
+                        <h1>4</h1>
+                        <p>Վճարե՛ք և սովորե՛ք հաճույքով:</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+      <!---->
+      <section class="why-attend-in-class container col-10">
+        <h2 class="section-title" id="section-title why-title">Ինչու՞ մասնակցել փորձնական դասին</h2>
+        <div class="why-attend-in-class-child">
+            <!-- <img src="./assets/images/article/section_why_us/star-vector.png" alt="" class="wacs-top star-vector"> -->
+            <div class="why-attend-in-class-items">
+                <div class="cosmo-people">
+                    <img src="./assets/images/article/section_why_attend_in_class/start_to_cosmos.png" alt="Image" class="img-fluid">
+                    <button id="res-button">ՈՒԶՈՒՄ ԵՄ ՄԱՍՆԱԿՑԵԼ</button>
+                </div>
+                <div class="star">
+                    <img src="./assets/images/article/section_why_attend_in_class/star-vector.png" alt="Image" class="star-vector">
+                </div>
+                <div class="cosmo-items">
+                    <div class="item">
+                        <span>
+                            <img src="./assets/images/article/section_why_attend_in_class/cosmo_item_one.png" alt="Image">
+                            <p>
+                                Ուսուցիչը կգնահատի Ձեր երեխայի<br/> իմացական մակարդակը:
+                            </p>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span>
+                            <img src="./assets/images/article/section_why_attend_in_class/cosmo_item_four.png" alt="Image">
+                            <p>
+                                Պատկերացում կկազմեք հետագա դասերի <br/>մասին:
+                            </p>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span>
+                            <img src="./assets/images/article/section_why_attend_in_class/cosmo_item_two.png" alt="Image">
+                            <p>
+                                Միասին կսահմանեք երեխայի ուսումնական նպատակները:
+                            </p>
+                        </span>
+                    </div>
+                    <div class="item item-four">
+                        <span>
+                            <img src="./assets/images/article/section_why_attend_in_class/cosmo_item_five.png" alt="Image">
+                            <p>
+                                Կկողմնորոշվեք որոշման <br/>հարցում:
+                            </p>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span>
+                            <img src="./assets/images/article/section_why_attend_in_class/cosmo_item_tree.png" alt="Image">
+                            <p>
+                                Կկազմվի անհատական <br/>ուսուցման պլան:
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- <img src="./assets/images/article/section_why_us/star-vector.png" alt="" class="wacs-bottom star-vector"> -->
+    </section>
+        <section class="counts container col-11">
+            <div class="counts-cols">
+                <div class="count-col-one">
+                    <img src="./assets/images/article/section_lessons_count/pink_planet.png" alt="Image" class="rotate-planet">
+                    <img src="./assets/images/article/section_lessons_count/blue_planet.png" alt="Image" class="rotate-planet">
+                </div>
+                <div class="count-col-two">
+                    <img src="./assets/images/article/section_lessons_count/yellow_planet.png" alt="Image" class="rotate-planet">
+                    <div class="counts-inner">
+                        <h2 class="section-title" id="section-title">
+                            Իրականացված դասերի քանակ
+                        </h2>
+                        <p>7 5 9 8 4</p>
+                        <a href="#blockFour">
+                            <button id="res-button">ՓՈՐՁԵԼ ԱՆՎՃԱՐ</button>
+                        </a>
+                    </div>
+                    <img src="./assets/images/article/section_lessons_count/people_on_planet.png" alt="Image" class="people-with-cosmos">
+                </div>
+            </div>
+        </section>
+        <section class="questions-block container col-12">
+            <h2 class="section-title" id="section-title">Հաճախ տրվող հարցեր</h2>
+            <div class="questions-block-child col-9 container">
+                <div class="item" onclick="itemOpenOne()">
+                    <span>
+                        <p>Հնարավո՞ր է դասերին միանալ հեռախոսով/ սմարթֆոնով:</p>
+                        <img src="./assets/images/article/section_question_block/down.png" alt="Image" class="toggle-item-image-one">
+                    </span>
+                    <span class="item-inner item-inner-one">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse rerum error eum, perspiciatis necessitatibus fugiat temporibus quis et, tenetur magni? Id alias, quisquam cupiditate tempore ullam ipsa error rem!
+                    </span>
+                </div>
+                <hr/>
+                <div class="item" onclick="itemOpenTwo()">
+                    <span>
+                        <p>Որո՞նք են փորձնական դասին հաջորդող քայլերը:</p>
+                        <img src="./assets/images/article/section_question_block/down.png" alt="Image" class="toggle-item-image-two">
+                    </span>
+                    <span class="item-inner item-inner-two">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse rerum error eum, perspiciatis necessitatibus fugiat temporibus quis et, tenetur magni? Id alias, quisquam cupiditate tempore ullam ipsa error rem!
+                    </span>
+                </div>
+                <hr/>
+                <div class="item" onclick="itemOpenTree()">
+                    <span>
+                        <p>Ինչպե՞ս է կազմվում դասերի գրաֆիկը:</p>
+                        <img src="./assets/images/article/section_question_block/down.png" alt="Image" class="toggle-item-image-tree">
+                    </span>
+                    <span class="item-inner item-inner-tree">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse rerum error eum, perspiciatis necessitatibus fugiat temporibus quis et, tenetur magni? Id alias, quisquam cupiditate tempore ullam ipsa error rem!
+                    </span>
+                </div>
+                <hr/>
+                <div class="item" onclick="itemOpenFour()">
+                    <span>
+                        <p>Որքա՞ն է դասի տևողությունը:</p>
+                        <img src="./assets/images/article/section_question_block/down.png" alt="Image" class="toggle-item-image-four">
+                    </span>
+                    <span class="item-inner item-inner-four">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse rerum error eum, perspiciatis necessitatibus fugiat temporibus quis et, tenetur magni? Id alias, quisquam cupiditate tempore ullam ipsa error rem!
+                    </span>
+                </div>
+                <hr/>
+                <div class="item" onclick="itemOpenFive()">
+                    <span>
+                        <p>Ինչպե՞ս պետք է միանալ դասին:</p>
+                        <img src="./assets/images/article/section_question_block/down.png" alt="Image" class="toggle-item-image-five">
+                    </span>
+                    <span class="item-inner item-inner-five">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse rerum error eum, perspiciatis necessitatibus fugiat temporibus quis et, tenetur magni? Id alias, quisquam cupiditate tempore ullam ipsa error rem!
+                    </span>
+                </div>
+                <hr/>
+                <div class="item" onclick="itemOpenSix()">
+                    <span>
+                        <p>Որո՞նք են անգլերեն լեզվի ծրագրի առավելությունները:</p>
+                        <img src="./assets/images/article/section_question_block/down.png" alt="Image" class="toggle-item-image-six">
+                    </span>
+                    <span class="item-inner item-inner-six">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse rerum error eum, perspiciatis necessitatibus fugiat temporibus quis et, tenetur magni? Id alias, quisquam cupiditate tempore ullam ipsa error rem!
+                    </span>
+                </div>
+                <hr/>
+                <div class="item" onclick="itemOpenSeven()">
+                    <span>
+                        <p>Որքանո՞վ է արդյունավետ ուսուցումն օնլայն հարթակում:</p>
+                        <img src="./assets/images/article/section_question_block/down.png" alt="Image" class="toggle-item-image-seven">
+                    </span>
+                    <span class="item-inner item-inner-seven">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis esse rerum error eum, perspiciatis necessitatibus fugiat temporibus quis et, tenetur magni? Id alias, quisquam cupiditate tempore ullam ipsa error rem!
+                    </span>
+                </div>
+            </div>
+            <div class="col-10 container-fluid">
+                <img src="./assets/images/article/section_question_block/star-vector.png" alt="Image" class="star-vector">
+            </div>
+        </section>
+        <section class="swiper-parent container-fluid">
+            <h2 class="section-title" id="section-title">
+                <a id="blockOne" class="block"></a>
+                Կարծիքներ
+            </h2>
+            <div class="container-fluid container-sw col-11">
+                <div class="container-inner">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                    <img src="./assets/a.png" alt="People One">
+                                    <img src="./assets/a.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                      <div class="img-col-one">
+                                          <p class="img-title-bold">Արուս</p>
+                                          <p class="img-title-normal">մայրիկ</p>
+                                      </div>
+                                      <div class="img-col-two">
+                                          <p class="img-title-bold">Վահագն</p>
+                                          <p class="img-title-normal">13տ</p>
+                                      </div>
+                                  </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                          Տղաս հաճույքով շարունակում է պարապել: Շատ հաճելի է, շատ գոհ ենք և՛ Ձեզնից, և՛ մեր ուսուցչուհուց մեծ ուշադրության և ուսուցման համար: Հայաստան գալու դեպքում անպայման կհանդիպենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Մալվինա</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Միքայել</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                        Դասերը շատ լավ են անցնում: Մենք շատ գոհ ենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Հեղինե</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Սոֆի</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                        Շատ շնորհակալ եմ: Դասերը շատ լավ են ընթանում. բավականին առաջընթաց ունենք: Ուսուցչուհուց շատ գոհ ենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Արուս</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Վահագն</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                          Տղաս հաճույքով շարունակում է պարապել: Շատ հաճելի է, շատ գոհ ենք և՛ Ձեզնից, և՛ մեր ուսուցչուհուց մեծ ուշադրության և ուսուցման համար: Հայաստան գալու դեպքում անպայման կհանդիպենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Արուս</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Վահագն</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                   </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                          Տղաս հաճույքով շարունակում է պարապել: Շատ հաճելի է, շատ գոհ ենք և՛ Ձեզնից, և՛ մեր ուսուցչուհուց մեծ ուշադրության և ուսուցման համար: Հայաստան գալու դեպքում անպայման կհանդիպենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Արուս</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Վահագն</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                   </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                          Տղաս հաճույքով շարունակում է պարապել: Շատ հաճելի է, շատ գոհ ենք և՛ Ձեզնից, և՛ մեր ուսուցչուհուց մեծ ուշադրության և ուսուցման համար: Հայաստան գալու դեպքում անպայման կհանդիպենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Արուս</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Վահագն</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                   </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                          Տղաս հաճույքով շարունակում է պարապել: Շատ հաճելի է, շատ գոհ ենք և՛ Ձեզնից, և՛ մեր ուսուցչուհուց մեծ ուշադրության և ուսուցման համար: Հայաստան գալու դեպքում անպայման կհանդիպենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Արուս</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Վահագն</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                   </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                          Տղաս հաճույքով շարունակում է պարապել: Շատ հաճելի է, շատ գոհ ենք և՛ Ձեզնից, և՛ մեր ուսուցչուհուց մեծ ուշադրության և ուսուցման համար: Հայաստան գալու դեպքում անպայման կհանդիպենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-inner-child">
+                              <div class="img-head">
+                                  <div class="img-child">
+                                      <img src="./assets/images/article/section_question/question_people_one.png" alt="People One">
+                                      <img src="./assets/images/article/section_question/question_people_two.png" alt="People Two">
+                                  </div>
+                                  <div class="img-typeography">
+                                    <div class="img-col-one">
+                                        <p class="img-title-bold">Արուս</p>
+                                        <p class="img-title-normal">մայրիկ</p>
+                                    </div>
+                                    <div class="img-col-two">
+                                        <p class="img-title-bold">Վահագն</p>
+                                        <p class="img-title-normal">13տ</p>
+                                    </div>
+                                   </div>
+                                  <div class="swiper-text">
+                                      <p>
+                                          Տղաս հաճույքով շարունակում է պարապել: Շատ հաճելի է, շատ գոհ ենք և՛ Ձեզնից, և՛ մեր ուսուցչուհուց մեծ ուշադրության և ուսուցման համար: Հայաստան գալու դեպքում անպայման կհանդիպենք:
+                                      </p>
+                                  </div>
+                                  <div class="swiper-stars">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                      <img src="./assets/images/article/section_question/yellow_star.png" alt="Yellow Star">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- Add Pagination -->
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+        </section>
+        <section class="your-best-contributtion">
+            <div class="your-best-contributtion-header">
+                <img src="./assets/images/article/section_your_best_contribution/pink_planet.png" alt="Pink Planet" class="rotate-planet">
+            </div>
+            <a id="blockTree" class="block"></a>
+            <h2 class="section-title" id="section-title">
+                Ձեր լավագույն ներդրումը
+            </h2>
+            <div class="inner-your-best-contributtion container col-10">
+                <div class="inner-your-best-contributtion-columns-pink to-append pink-top">
+                    <div class="inner-your-best-contributtion-column-title pink-title">TRIAL</div>
+                    <div class="inner-your-best-contributtion-column">
+                        <div class="inner-your-best-contributtion-column">
+                            <div class="item">
+                                <span class="inner-your-best-contributtion-column-bottom-title pink-column-title">
+                                    <p class="free-lesson">Անվճար փորձնական դաս</p>
+                                    <div class="prices">
+                                        <span class="prices-prices pink-price">
+                                            <p class="price-for-lesson">0 €</p>
+                                        </span>
+                                        <span class="prices-title">
+                                            <p class="less"></p>
+                                            <p class="less"></p>
+                                        </span>
+                                        <div class="item-hr pink-hr"></div>
+                                    </div>
+                                </span>
+                                <ul class="inner-your-best-contributtion-column-lists pink-lists">
+                                    <li>
+                                        Տևողությունը` 20-30 րոպե
+                                    </li>
+                                    <li>
+                                        Ավելի լավ է մեկ անգամ փորձել, քան հազար անգամ լսել։
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item price-item">
+                                <a href="#blockFour">
+                                    <button class="inner-your-best-contributtion-column-button pink-button anim-button" id="res-button">ՄԱՍՆԱԿՑԵԼ ՓՈՐՁՆԱԿԱՆ ԴԱՍԻՆ</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-your-best-contributtion-columns-green to-append green-top">
+                    <div class="inner-your-best-contributtion-column-title green-title">POPULAR</div>
+                    <div class="inner-your-best-contributtion-column">
+                        <div class="inner-your-best-contributtion-column">
+                            <div class="item">
+                                <span class="inner-your-best-contributtion-column-bottom-title">
+                                    <p class="free-lesson">8 դաս</p>
+                                    <div class="prices">
+                                        <span class="prices-prices green-price">
+                                            <p class="price-for-lesson">6.25 €</p>
+                                            <p class="price-for-lesson">50 €</p>
+                                        </span>
+                                        <span class="prices-title">
+                                            <p class="less">1 դաս</p>
+                                            <p class="less">փաթեթի արժեք</p>
+                                        </span>
+                                        <div class="item-hr"></div>
+                                    </div>
+                                </span>
+                                <ul class="inner-your-best-contributtion-column-lists green-lists">
+                                    <li>
+                                        Տևողությունը` 50 րոպե:
+                                    </li>
+                                    <li>
+                                        Ճկուն գրաֆիկ:
+                                    </li>
+                                    <li>
+                                        Շաբաթական դասերի հաճախականությունը՝ ըստ ձեր հայեցողության։
+                                    </li>
+                                    <li>
+                                        Անձնական օգնական, ով կաջակցի ձեզ ցանկացած հարցում։
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item price-item">
+                                <a href="#blockFour">
+                                    <button class="inner-your-best-contributtion-column-button green-button anim-button" id="res-button">ԳՐԱՆՑՎԵԼ</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-your-best-contributtion-columns-blue to-append blue-top">
+                    <div class="inner-your-best-contributtion-column-title blue-title"><p>EFFECTIVE</p></div>
+                    <div class="inner-your-best-contributtion-column">
+                        <div class="inner-your-best-contributtion-column">
+                            <div class="item">
+                                <span class="inner-your-best-contributtion-column-bottom-title">
+                                    <div class="blue-title-span">
+                                        <p class="free-lesson">12 դաս</p>
+                                        <span class="sale">
+                                            <p class="sale-text" id="sale-text">15% ԶԵՂՉ</p>
+                                        </span>
+                                    </div>
+                                    <div class="prices">
+                                        <span class="prices-prices blue-price">
+                                            <p class="price-for-lesson">5.41 €</p>
+                                            <p class="price-for-lesson">65 €</p>
+                                        </span>
+                                        <span class="prices-title">
+                                            <p class="less">1 դաս</p>
+                                            <p class="less">փաթեթի արժեք</p>
+                                        </span>
+                                        <div class="item-hr"></div>
+                                    </div>
+                                </span>
+                                <ul class="inner-your-best-contributtion-column-lists blue-lists">
+                                    <li>
+                                        Տևողությունը` 50 րոպե:
+                                    </li>
+                                    <li>
+                                        Ճկուն գրաֆիկ:
+                                    </li>
+                                    <li>
+                                        Շաբաթական դասերի հաճախականությունը՝ ըստ ձեր հայեցողության։
+                                    </li>
+                                    <li>
+                                        Գումարի խնայողություն:
+                                    </li>
+                                    <li>
+                                        Անձնական օգնական, ով կաջակցի ձեզ ցանկացած հարցում։
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item price-item">
+                                <a href="#blockFour">
+                                    <button class="inner-your-best-contributtion-column-button blue-button anim-button" id="res-button">ԳՐԱՆՑՎԵԼ</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="./assets/images/article/section_cosmo_form/cosmo_form_star.png" alt="Star Vector" class="prices-star img-fluid star-vector"> -->
+            </div>
+        </section>
+        <a id="blockFour"></a>
+        <section class="container cosmo-form col-10" id="cosmo-form">
+            <div class="cosmo-form-parent">
+                <div class="cosmo-form-img">
+                    <div class="cosmo-form-people-top">
+                        <img src="./assets/images/article/section_cosmo_form/cosmo_yellow_planet.png" alt="Yellow Planet" class="yellow-planet">
+                        <div class="cosmo-people-top-text">
+                            <p>
+                                Դե՛, թռա՜նք՝ լուսավորելու գիտելիքի քո գալակտիկան:
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cosmo-form-people cosmo-mt">
+                        <img src="./assets/images/article/section_cosmo_form/cosmo_form_people.png" alt="Image" class="cosmo-people-img">
+                        <img src="./assets/images/article/section_cosmo_form/cosmo_form_star.png" alt="Star" class="star-vector">
+                    </div>
+                </div>
+                <div class="cosmo-form-form">
+                    <form>
+                    <p class="form-title text-left">Թողնել հայտ</p>
+                        <div class="form-group">
+                            <label for="inp_one">Ձեր անունը</label>
+                            <input type="text" id="inp_one" placeholder="Լրացրեք Ձեր անունը" class="form-control"/>
+                        </div>
+                        <div class="form-group mt-for-form">
+                            <label for="inp_one">Երեխայի անուն</label>
+                            <input type="text" id="inp_one" placeholder="Լրացրեք երեխայի անունը" class="form-control"/>
+                        </div>
+                        <div class="form-group mt-for-form">
+                            <label for="inp_one">Երեխայի տարիք</label>
+                            <input type="text" id="inp_one" placeholder="Լրացրեք երեխայի տարիքը" class="form-control"/>
+                        </div>
+                        <div class="form-group mt-for-form">
+                            <label for="inp_one">Հեռախոսահամար</label>
+                            <input type="text" id="inp_one" placeholder="+374374374" class="form-control"/>
+                        </div>
+                        <div class="form-group mt-for-form">
+                            <label for="inp_one">Էլ․ փոստի հասցե</label>
+                            <input type="text" id="inp_one" placeholder="example@gmail.com" class="form-control"/>
+                        </div>
+                        <div class="form-button">
+                            <button class="anim-button">Գրանցվել</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="red-planet-container">
+            <img src="./assets/images/article/section_cosmo_form/cosmo_red_planet.png" alt="Image" class="rotate-planet">
+        </div>
+    </article>
+    <footer>
+        <div class="footer-child">
+            <div class="footer-col-one">
+                <img src="./assets/images/footer/footer_logo.png" alt="Logo" class="footer-logo">
+                <p>
+                    Քարհանյան օնլայն դպրոցը արդեն 12 տարի է, ինչ «արտահանում է» ժպիտներ, երեխաների համար սովորելու գործընթացը դարձնում հաճելի, իսկ<br/>մայրիկներին նվիրում ազատ ժամանակ:
+                </p>
+            </div>
+            <div class="footer-col-two">
+                <span class="connect">Կապ</span>
+                <div class="icons">
+                    <div>
+                        <img src="./assets/images/footer/instagram.png" alt="Icon">
+                    </div>
+                    <div>
+                        <img src="./assets/images/footer/facebook.png" alt="Icon">
+                    </div>
+                    <div>
+                        <img src="./assets/images/footer/mail.png" alt="Icon">
+                    </div>
+                    <div>
+                        <img src="./assets/images/footer/mobile.png" alt="Icon">
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <hr/>
+            <div class="footer-bottom-child">
+                <div class="copyright-block">
+                    <p class="copyright">
+                        © 2022 Քարհանյան օնլայն դպրոց
+                    </p>
+                </div>
+                <div class="machtech">
+                    <p>
+                        Կայքի Հեղինակ <a href="https://machtech.am/" class="mach">MachTechnologies</a>
+                    </p>
+                    <a href="https://machtech.am/" class="machtech-link">
+                        <img src="./assets/images/other/machtech.png" alt="Logo" class="link-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+        <script src="./assets/scripts/media.js"></script>
+        <script src="./assets/scripts/items.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Swiper Slider JS -->
+        <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+        <script id="rendered-js" >
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 3,
+            paginationClickable: true,
+            spaceBetween: 30,
+            breakpoints: {
+                400: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 30
+                },
+                999: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 40
+                }
+            },
+            freeMode: true });
+        </script>
+</body>
+</html>

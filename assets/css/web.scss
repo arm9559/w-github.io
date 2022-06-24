@@ -1,0 +1,117 @@
+@media (min-width:1300px){
+    .why-us-child-items{
+        .items{
+            .item{
+                padding: 15px !important;
+            }
+        }
+    }
+    .display{
+        .display-star-one{
+            position: relative;
+            left: 155px !important;
+            margin-left: 35px !important;
+        }
+        .display-star-two{
+            position: relative;
+            left: 375px !important;
+            margin-left: 35px !important;
+        }
+    }
+    .how-study-child{
+        margin-top: 255px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        img{
+            max-width: 80% !important;
+        }
+    }
+    .how-study{
+        .how-study-planets{
+            width: 80% !important;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            .planet-one{
+                position: relative !important;
+                left: -75px !important;
+                img{
+                    height: 105px !important;
+                }
+            }
+            .planet-two{
+                position: relative !important;
+                left: -25px !important;
+                span{
+                    margin-top: 12px !important;
+                }
+                img{
+                    height: 105px !important;
+                    position: relative;
+                    top: 15px;
+                    left: 15px;
+                    height: 105px !important;
+                    width: 105px !important;
+                    margin-bottom: 15px;
+                }
+            }
+            .planet-tree{
+                position: relative !important;
+                left: 5px !important;
+                span{
+                    margin-top: -5px !important;
+                }
+                img{
+                    height: 105px !important;
+                    position: relative;
+                    top: 5px;
+                    left: 105px;
+                    height: 105px !important;
+                    width: 105px !important;
+                    margin-bottom: 15px;
+                }
+            }
+            .planet-four{
+                position: relative !important;
+                span{
+                    margin-top: 52px !important;
+                }
+                img{
+                    position: relative;
+                    top: 55px;
+                    left: 95px;
+                    height: 105px !important;
+                    width: 105px !important;
+                    margin-bottom: 15px;
+                }
+                span{
+                    margin-left: -50px !important;
+                }
+            }
+            div{
+                span{
+                    margin-top: 35px;
+                    font-family: 'Montserrat arm';
+                    display: flex;
+                    grid-gap: 15px;
+                    width: 320px !important;
+                    color: white;
+                    top: 195px;
+                    left: -200px !important; 
+                    h1{
+                        color: #4472CA;
+                    }
+                    b{
+                        font-size: 10px !important;
+                    }
+                }
+                img{
+                    height: auto;
+                    width: auto;
+                }
+            }
+        }
+    }
+}

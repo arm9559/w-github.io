@@ -1,0 +1,363 @@
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px 20px 0px 0px;
+    width: 100% !important;
+    height: auto;
+    padding: 55px;
+    position: relative;
+    margin-top:225px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat arm' !important;
+    .link-logo{
+        width: 100% !important;
+        height: 75px !important;
+    }
+    .footer-bottom-child{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-bottom{
+        margin-top: 40px;
+        .machtech{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            p{
+                color: white;
+                margin-bottom: 0px !important;
+            }
+            a{
+                color: white;
+            }
+            img{
+                width: 15%;
+                height: 65px;
+            }
+        }
+        width: 80%;
+        hr{
+            width: 100%;
+            height: 0.5px;
+            background: rgba(248, 248, 248, 0.2);;
+        }
+        .copyright-block{
+            width: 100% !important;
+        }
+        .copyright{
+            color: white;
+        }
+    }
+    .footer-child{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: space-between;
+        .footer-col-one{
+            width: 686px;
+            p{
+                position: relative;
+                top: 15px;
+                color: white;
+            }
+        }
+        .footer-col-two{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .connect{
+                color: white;
+            }
+            .icons{
+                display: flex;
+                div{
+                    margin: 14px;
+                    width: 48px;
+                    height: 48px;
+                    background: #00BF90;
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+@media (min-width:1497px){
+    footer{
+        .connect{
+            margin-left: 5px !important;
+            margin-bottom: 15px !important;
+        }
+        .icons{
+            div{
+                margin: 4px !important;
+            }
+        }
+        .footer-child{
+            width: 75%;
+            .footer-col-one{
+                .footer-logo{
+                    height: 45px;
+                }
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #EFEFEF;
+                }
+            }
+        }
+        .footer-bottom{
+            width: 75%;
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #EFEFEF;
+            }
+        }
+    }
+}
+@media (max-width:1024px){
+    .footer-child{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+@media (max-width:992px){
+    .footer-bottom-child{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    .copyright-block{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .machtech{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        p{
+            position: relative !important;
+            left: 18px;
+            margin-left: 17px;
+        }
+    }
+}
+@media (max-width:800px){
+    footer{
+        .connect{
+            margin-top: 25px !important;
+        }
+    }
+    .footer-bottom-child{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        div{
+            width:100% !important;
+            img{
+                height: 55px;
+                width: 125px !important;
+            }
+        }
+        .machtech{
+            display: flex !important;
+            width: 100%;
+        }
+    }
+}
+@media (max-width:768px){
+    .footer-child{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        .footer-col-one{
+            width: auto !important;
+        }
+    }
+}
+@media (max-width:495px){
+    .footer-col-two{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        .connect{
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            flex-direction: column !important;
+            width: 80% !important;
+        }
+        div{
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            text-align: center !important;
+            margin: 5px !important;
+        }
+    }
+    .footer-bottom{
+        .footer-bottom-child{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .copyright-block{
+                width: 100% !important;
+            }
+        }
+    }
+}
+@media (max-width:475px){
+    .footer-col-two{
+        margin-top: 55px !important;
+    }
+}
+@media (max-width:364px){
+    .footer-col-two{
+        .icons{
+            div{
+                width: 30px !important;
+                height: 30px !important;
+                img{
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:425px){
+    .machtech-link{
+        margin-top: 45px !important;
+    }
+    footer{
+        width: 100% !important;
+        margin-top: -165px !important;
+        padding: 14px !important;
+    }
+    .red-planet-container{
+        position: relative !important;
+        top: -325px !important;
+    }
+    .footer-col-one{
+        text-align: center !important;
+        p{
+            text-align: justify !important;
+            font-size: 13px !important;
+        }
+    }
+    .footer-col-two{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-top: 12px !important;
+        .icons{
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            width: 100% !important;
+        }
+    }
+    .copyright{
+            font-size: 9px !important;
+    }
+    .footer-bottom{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+    .footer-bottom-child{
+        width: 100% !important;
+        margin-top: 1px !important;
+    }
+    .machtech{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        p{
+            width: 100% !important;
+            font-size: 9px !important;
+            left: 0px !important;
+            margin-left: 0px !important;
+        }
+        img{
+            height: 95px !important;
+            position: relative !important;
+            top: -25px !important;
+        }
+    }
+}
+
+@media (max-width:376px){
+    .mach{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    footer{
+        margin-top: -75px !important;
+        padding: 14px !important;
+    }
+    .red-planet-container{
+        position: relative !important;
+        top: -325px !important;
+    }
+    .footer-col-one{
+        text-align: center !important;
+        p{
+            font-size: 13px !important;
+        }
+    }
+    .footer-col-two{
+        margin-top: 12px !important;
+    }
+    .copyright{
+            font-size: 9px !important;
+    }
+    .footer-bottom{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+    .footer-bottom-child{
+        width: 100% !important;
+        margin-top: 1px !important;
+    }
+    .machtech{
+        width: 100% !important;
+        p{
+            width: 100% !important;
+            font-size: 9px !important;
+            a{
+                display: flex !important;
+                width: 100% !important;
+            }
+        }
+        img{
+            height: 95px !important;
+            position: relative !important;
+            top: 5px !important;
+        }
+    }
+}

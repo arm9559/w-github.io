@@ -1,0 +1,102 @@
+.toggle{
+    transform: rotate(180deg);
+}
+.questions-block{
+    margin-top: 75px;
+    .container-fluid{
+        position: relative;
+        top: 35px;
+    }
+    .section-title{
+        font-family: 'Montserrat arm';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #F8F8F8;
+    }
+    .questions-block-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px;
+        hr{
+            border: 1px solid rgba(248, 248, 248, 0.2);
+            width: 100%;
+            margin-top: -2px;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            color: white;
+            text-align: left;
+            cursor: pointer;
+            span{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                font-family: 'Montserrat arm';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #EFEFEF;
+            }
+            .item-inner{
+                padding: 25px;
+                background-color: white;
+                color: #4E565C;
+                height: auto;
+                text-align: center;
+                border-bottom-left-radius: 12px;
+                border-bottom-right-radius: 12px;
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width:993px){
+    .questions-block{
+        margin-top: 205px !important;
+    }
+}
+@media (max-width:946px){
+    .questions-block{
+        .questions-block-child{
+            .item{
+                span{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+@media (max-width:769px){
+    .questions-block{
+        margin-top: -205px !important;
+        .questions-block-child{
+            .item{
+                span{
+                    p{
+                        font-size: 12px !important;
+                    }
+                }
+                img{
+                    height: 10px !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width:453px){
+    .questions-block{
+        margin-top: -525px !important;
+        .questions-block-child{
+            margin-top: 125px !important;
+        }
+    }
+}

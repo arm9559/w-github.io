@@ -1,0 +1,401 @@
+
+.item-four{
+    span{
+        p{
+            margin-top: -25px !important;
+        }
+        img{
+            margin-top: -20px !important;
+        }
+    }
+}
+.why-us{
+    position: relative;
+    margin-top: -755px !important;
+    .section-title{
+        font-family: 'Montserrat arm';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 32px;
+        color: #F8F8F8;
+    }
+    .why-us-child{
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        .why-us-child-items{
+            .items{
+                display: flex;
+                grid-gap: 3px;
+                .item{
+                    font-weight: 100 !important;
+                    margin: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    width: 322px;
+                    height: auto;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 12px;
+                    cursor: pointer;
+                    .item-header{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        grid-gap: 16px;
+                        b{
+                            font-family: 'Montserrat arm';
+                            font-style: normal;
+                            font-weight: 100;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #F8F8F8;
+                        }
+                        img{
+                            height: 25px;
+                        }
+                    }
+                    .item-footer{
+                        p{
+                            position: relative;
+                            top: 10px;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #EFEFEF;
+                        }
+                    }
+                }
+            }
+        }
+        .display{
+            .display-star-one{
+                position: relative;
+                left: 105px;
+            }
+            .display-star-two{
+                position: relative;
+                left: 30.2734375vw;
+            }
+            .background{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .display::after{
+            background-image: url('../../../images/article/section_why_us/pink_planet.png');
+            animation: rotation 13s infinite linear;
+            height: 147px;
+            width: 147px;
+            background-size: 147px 147px;
+            content: '';
+            color: white;
+            position: absolute;
+            left: 90%;
+            z-index: -1;
+            top: 76%;
+        }
+    }
+}
+@media (max-width:1501px){
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 147px;
+        width: 147px;
+        background-size: 147px 147px;
+        content: '';
+        color: white;
+        position: absolute;
+        z-index: -1;
+    }
+}
+@media (max-width:1300px){
+    .why-us-child-items{
+        .items{
+            .item{
+                padding: 5px;
+                span{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1293px){
+    .why-us-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 147px;
+        width: 147px;
+        background-size: 147px 147px;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 68% !important;
+        top: 87% !important;
+        z-index: -1;
+    }
+}
+@media (max-width:1252px){
+    .why-us{
+        position: relative !important;
+        top: -125px !important;
+    }
+}
+@media (max-width:1200px){
+    .why-us{
+        position: relative !important;
+        top: -265px !important;
+    }
+}
+@media (max-width:1173px){
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 147px;
+        width: 147px;
+        background-size: 147px 147px;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 72% !important;
+        z-index: -1;
+        top: 87% !important;
+    }
+}
+@media (max-width:996px){
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 147px;
+        width: 147px;
+        background-size: 147px 147px;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 75% !important;
+        z-index: -1;
+        top: 87% !important;
+    }
+}
+@media (max-width:992px){
+    .why-us{
+        position: relative !important;
+        top: -395px !important;
+    }
+}
+@media (max-width:878px){
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 147px;
+        width: 147px;
+        background-size: 147px 147px;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 80% !important;
+        z-index: -1;
+        top: 87% !important;
+    }
+}
+@media (max-width:768px){
+    .why-us{
+        position: relative !important;
+        margin-top: -925px !important;
+    }
+    .why-attend-in-class{
+        position: relative !important;
+        margin-top: -325px !important;
+    }
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 87px !important;
+        width: 87px !important;
+        background-size: 87px 87px !important;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 65% !important;
+        z-index: -1;
+        top: 85% !important;
+    }
+}
+@media (max-width:541px){
+    .why-us{
+        margin-top: 85px !important;
+    }
+}
+@media (max-width:520px){
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 87px !important;
+        width: 87px !important;
+        background-size: 87px 87px !important;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 70% !important;
+        z-index: -1;
+        top: 86% !important;
+    }
+}
+@media (max-width:355px){
+    .items{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        .item{
+            max-width: 80% !important;
+        }
+    }
+}
+@media (max-width:380px){
+    .why-us{
+        position: relative !important;
+        top: -175px !important;
+        margin-top: -255px !important;
+    }
+}
+@media (max-width:419px){
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 87px !important;
+        width: 87px !important;
+        background-size: 87px 87px !important;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 70% !important;
+        z-index: -1;
+        top: 87% !important;
+    }
+}
+@media (max-width:392px){
+    .display::after{
+        background-image: url('../../../images/article/section_why_us/pink_planet.png');
+        height: 87px !important;
+        width: 87px !important;
+        background-size: 87px 87px !important;
+        content: '';
+        color: white;
+        position: absolute;
+        left: 70% !important;
+        z-index: -1;
+        top: 88% !important;
+    }
+}
+@media (max-width:453px){
+    .why-us{
+        .section-title{
+            position: relative !important;
+            top: -25px !important;
+        }
+        .items{
+            margin: 5px;
+        }
+        .items:nth-child(2){
+            position: relative !important;
+            top: -5px !important;
+        }
+        .items:nth-child(3){
+            position: relative !important;
+            top: -11px !important;
+        }
+    }
+}
+@media (max-width:768px){
+    .items{
+        flex-direction: column !important;
+    }
+    .display{
+        .background{
+            height: 500px !important;
+            width: 500px !important;
+            background-size: contain !important;
+        }
+    }
+}
+@media (max-width:769px){
+    .display-star-one{
+        position: relative !important;
+        height: 6px !important;
+    }
+    .display-star-two{
+        position: relative !important;
+        left: 185px !important;
+        height: 6px !important;
+        top: -135px !important;
+    }
+}
+@media (max-width:768px){
+    .items{
+        flex-direction: column !important;
+        .item{
+            width: auto !important;
+            padding: 20px !important;
+            text-align: center;
+        }
+    }
+    .display{
+        .background{
+            height: 300px !important;
+            width: 300px !important;
+            background-size: contain !important;
+        }
+    }
+}
+@media (max-width:718px){
+    .why-us{
+        position: relative;
+        top: -307px !important;
+    }
+}
+@media (max-width:608px){
+    .why-us{
+        position: relative;
+        top: -397px !important;
+    }
+}
+@media (max-width:457px){
+    .why-us{
+        position: relative !important;
+        top: -397px !important;
+    }
+}
+@media (max-width:453px){
+    .why-us{
+        position: relative !important;
+        top: -397px !important;
+        .why-us-child{
+            position: relative !important;
+            top: -30px !important;
+        }
+        .items{
+            margin-bottom: 8px !important;
+            .item{
+                margin-top: -12px !important;
+                margin: 2px !important;
+                span{
+                    width: 100%;
+                    display: flex !important;
+                    flex-direction: column !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width:402px){
+    .display{
+        .display-star-two{
+            position: relative !important;
+            left: 155px !important;
+        }   
+    }
+}

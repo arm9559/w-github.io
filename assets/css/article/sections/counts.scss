@@ -1,0 +1,213 @@
+.counts{
+    margin-top: 135px;
+    width: 100%;
+    .counts-cols{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .count-col-one{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .count-col-two{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .counts-inner{
+                position: relative;
+                top: -95px;
+                left: 3.2552083333333335vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .section-title{
+                    font-family: 'Montserrat arm';
+                    font-style: normal;
+                    font-weight: 100;
+                    font-size: 20px;
+                    line-height: 32px;
+                    text-transform: uppercase;
+                    color: #F8F8F8;
+                }
+                p{
+                    font-family: 'Montserrat arm';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 52px;
+                    line-height: 120px;
+                    color: #00BF90;
+                    text-shadow: 0px 4px 20px rgba(0, 191, 144, 0.1);
+                }
+                button{
+                    width: 302px;
+                    height: 60px;
+                    background: #00BF90;
+                    box-shadow: 0px 10px 20px rgba(0, 191, 144, 0.3);
+                    border-radius: 50px;
+                    border: none;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #F8F8F8;
+                }
+            }
+            .people-with-cosmos{
+                height: 255px;
+            }
+        }
+    }
+}
+
+@media (min-width:1497px){
+    .counts{
+        img{
+            height: 150px;
+        }
+    }
+}
+@media (max-width:992px){
+    .counts{
+        position: relative;
+        top: 125px;
+    }
+    .people-with-cosmos{
+        height: 20.6015625vh !important;
+    }
+    .count-col-one , .count-col-two{
+        img{
+            height: 60px;
+        }
+    }
+    .counts-inner{
+        h2{
+            font-size: 20px !important;
+        }
+        p{
+            font-size: 22px !important;
+        }
+        button{
+            width: 250px !important;
+            height: 40px !important;
+        }
+    }
+}
+@media (max-width:769px){
+    .counts{
+        position: relative;
+        margin-bottom: 325px;
+        .counts-inner{
+            margin-top: 25px !important;
+            left: 5.255208vw !important;
+        }
+    }
+}
+@media (max-width:561px){
+    .counts{
+        .counts-inner{
+            position: relative !important;
+            left: 6.5vw !important;
+        }
+    }
+}
+@media (max-width:602px){
+    .counts{
+        position: relative;
+    }
+    .count-col-one , .count-col-two{
+        img{
+            height: 60px !important;
+        }
+    }
+    .counts-inner{
+        margin-top: -125px !important;
+        position: relative !important;
+        margin-left: -65px !important;
+        h2{
+            font-size: 12px !important;
+        }
+        p{
+            position: relative;
+            top: -35px;
+            font-size: 22px !important;
+        }
+        button{
+            position: relative;
+            top: -75px;
+            width: 200px !important;
+            height: 40px !important;
+            font-size: 12px !important;
+        }
+    }
+}
+@media (max-width:520px){
+    .counts-inner{
+        position: relative !important;
+        top: 15px !important;
+        left: 15vw !important;
+    }
+}
+@media (max-width:488px){
+    .counts-inner{
+        position: relative !important;
+        top: 15px !important;
+        left: 22vw !important;
+        margin-left: -55px !important;
+    }
+}
+@media (max-width:453px){
+    .counts{
+        position: relative;
+        top: -125px !important;
+        .counts-inner{
+            position: relative;
+            top: -75px !important;
+            grid-gap: 15px;
+            h2{
+                margin-top: -15px !important;
+            }
+            p{
+                margin-top: 32px !important;
+            }
+            button{
+                margin-top: -35px !important;
+                width: 47vw !important;
+            }
+        }
+    }
+}
+@media (max-width:425px){
+    .counts{
+        position: relative !important;
+        margin-top: 13px !important;
+    }
+}
+@media (max-width:390px){
+    .counts{
+        position: relative;
+        top: 125px;
+    }
+    .count-col-one , .count-col-two{
+        img{
+            height: 40px !important;
+        }
+    }
+}
+@media (max-width:355px){
+    .counts{
+        .counts-inner{
+            position: relative !important;
+            left: 7.5vw !important;
+            .section-title{
+                position: relative !important;
+                top: 125px !important;
+            }
+            button{
+                position: relative !important;
+                top: -35px !important;
+            }
+        }
+    }   
+}

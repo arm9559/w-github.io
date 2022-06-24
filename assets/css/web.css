@@ -1,0 +1,122 @@
+@media (min-width: 1300px) {
+  .why-us-child-items .items .item {
+    padding: 15px !important;
+  }
+
+  .display .display-star-one {
+    position: relative;
+    left: 155px !important;
+    margin-left: 35px !important;
+  }
+  .display .display-star-two {
+    position: relative;
+    left: 375px !important;
+    margin-left: 35px !important;
+  }
+
+  .how-study-child {
+    margin-top: 255px;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .how-study-child img {
+    max-width: 80% !important;
+  }
+
+  .how-study .how-study-planets {
+    width: 80% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: relative;
+  }
+  .how-study .how-study-planets .planet-one {
+    position: relative !important;
+    left: -75px !important;
+  }
+  .how-study .how-study-planets .planet-one img {
+    height: 105px !important;
+  }
+  .how-study .how-study-planets .planet-two {
+    position: relative !important;
+    left: -25px !important;
+  }
+  .how-study .how-study-planets .planet-two span {
+    margin-top: 12px !important;
+  }
+  .how-study .how-study-planets .planet-two img {
+    height: 105px !important;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 105px !important;
+    width: 105px !important;
+    margin-bottom: 15px;
+  }
+  .how-study .how-study-planets .planet-tree {
+    position: relative !important;
+    left: 5px !important;
+  }
+  .how-study .how-study-planets .planet-tree span {
+    margin-top: -5px !important;
+  }
+  .how-study .how-study-planets .planet-tree img {
+    height: 105px !important;
+    position: relative;
+    top: 5px;
+    left: 105px;
+    height: 105px !important;
+    width: 105px !important;
+    margin-bottom: 15px;
+  }
+  .how-study .how-study-planets .planet-four {
+    position: relative !important;
+  }
+  .how-study .how-study-planets .planet-four span {
+    margin-top: 52px !important;
+  }
+  .how-study .how-study-planets .planet-four img {
+    position: relative;
+    top: 55px;
+    left: 95px;
+    height: 105px !important;
+    width: 105px !important;
+    margin-bottom: 15px;
+  }
+  .how-study .how-study-planets .planet-four span {
+    margin-left: -50px !important;
+  }
+  .how-study .how-study-planets div span {
+    margin-top: 35px;
+    font-family: "Montserrat arm";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-gap: 15px;
+    width: 320px !important;
+    color: white;
+    top: 195px;
+    left: -200px !important;
+  }
+  .how-study .how-study-planets div span h1 {
+    color: #4472CA;
+  }
+  .how-study .how-study-planets div span b {
+    font-size: 10px !important;
+  }
+  .how-study .how-study-planets div img {
+    height: auto;
+    width: auto;
+  }
+}

@@ -1,0 +1,262 @@
+@media (max-width:425px){
+    .how-study{
+        margin-top: -285px !important;
+        .to-cosmos{
+            img{
+                margin-top: -85px !important;
+            }
+        }
+        .dotted-vector{
+            margin-top: -55px !important;
+        }
+        .planets-footer{
+            margin-top: -85px !important;
+        }
+    }
+    .why-attend-in-class{
+        margin-top: -255px !important;
+    }
+}
+@media (max-width:476px){
+    main{
+        .inner{
+            .inner-title{
+                font-size: 3vw !important;
+            }
+            .inner-text{
+                font-size: 2vw !important;
+                margin-top: -15px !important;
+            }
+            .inner-button{
+                border: 1px solid red;
+                position: relative !important;
+                top: -5px !important;
+                width: 150px !important;
+                font-size: 7px !important;
+                line-height: 0px !important;
+                margin-top: -12px !important;
+                height: 35px !important;
+            }
+        }
+    }
+    .cosmo-people-top-text{
+        margin-top: 125px !important;
+    }
+    .cosmo-people-top-text::after{
+        margin-top: 105px !important;
+    }
+    .cosmo-form-people-top{
+        img{
+            margin-top: -152px;
+        }
+    }
+    .red-planet-container{
+        margin-top: -125px;
+        z-index: -1;
+    }
+    .why-us-child-items{
+        .items{
+            .item{
+                width: 310px !important;
+            }
+        }
+    }
+    .cosmo-text{
+        font-weight: bold !important;
+        font-size: 15px !important;
+    }
+    body{
+        #section-title{
+            font-size: 15px !important;
+        }
+    }
+    .cosmo-people{
+        button{
+            position: relative !important;
+            left: 10% !important;
+        }
+    }
+    .cosmo-items{
+        .item{
+            p{
+                font-size: 16px !important;
+            }
+            height: auto;
+        }
+    }
+    .questions-block-child{
+        .item{
+            span{
+                font-size: 12px !important;
+            }
+        }
+    }
+    .cosmo-form{
+        ::placeholder{
+            font-size: 12px !important;
+            font-weight: bold !important;
+        }
+        form{
+            position: relative !important;
+            margin-top: 25px !important;
+            display: flex;
+            grid-gap: 0px !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .form-title{
+                font-size: 25px !important;
+            }
+            p{
+                width: 100% !important;
+                text-align: left;
+                font-weight: bold !important;
+            }
+            div{
+                width: 100% !important;
+                grid-gap: 0px !important;
+                margin: 5px !important;
+                input{
+                    width: 100% !important;
+                }
+            }
+            *{
+                font-size: 12px !important;
+                font-weight: bold !important;
+            }
+            button{
+                width: 100% !important;
+            }
+        }
+    }
+}
+@media (max-width:445px){
+    .cosmo-form{
+        margin-top: 1025px !important;
+    }
+    .cosmo-form-people-top{
+        text-align: center !important;
+        img{
+            margin-top: 155px;
+        }
+        .cosmo-people-top-text{
+            text-align: center !important;
+        }
+    }
+    .inner-your-best-contributtion-column-lists{
+        li{
+            padding: 5px !important;
+        }
+    }
+}
+@media (max-width:394px){
+    main{
+        .inner{
+            position: relative;
+            left: 2px !important;
+            .inner-title{
+                font-size: 3vw !important;
+            }
+            .inner-text{
+                font-size: 2vw !important;
+                margin-top: -15px !important;
+            }
+            .inner-button{
+                border: 1px solid red;
+                position: relative !important;
+                top: -5px !important;
+                width: 160px !important;
+                font-size: 7px !important;
+                line-height: 0px !important;
+                margin-top: -12px !important;
+                height: 35px !important;
+            }
+        }
+    }
+}
+@media (max-width:360px){
+    main{
+        .inner{
+            position: relative;
+            left: 2px !important;
+            .inner-title{
+                font-size: 3vw !important;
+            }
+            .inner-text{
+                font-size: 2vw !important;
+                margin-top: -15px !important;
+            }
+            .inner-button{
+                border: 1px solid red;
+                position: relative !important;
+                top: -5px !important;
+                width: 140px !important;
+                height: 35px !important;
+                font-size: 7px !important;
+                line-height: 0px !important;
+                margin-top: -12px !important;
+                height: 35px !important;
+            }
+        }
+    }
+}
+@media (max-width:376px){
+    .cosmo-form-people-top{
+        img{
+            margin-top: 120px;
+        }
+    }
+    .cosmo-people-top-text{
+        margin-top: 325px !important;
+    }
+    .cosmo-form{
+        margin-top: 895px !important;
+        height: auto !important;
+    }
+    .counts-inner{
+        p{
+            font-size: 25px !important;
+            position: relative !important;
+            top: 15px !important;
+        }
+        button{
+            position: relative !important;
+            top: 25px !important;
+        }
+    }
+    .machtech{
+        width: 100% !important;
+        p{
+            width: 100% !important;
+        }
+        img{
+            margin-top: -35px !important;
+            height: 95px !important;
+        }
+    }
+    .why-attend-in-class{
+        .section-title{
+            font-size: 14px !important;
+        }
+    }
+    #why-title{
+        font-size: 16px !important;
+    }
+}
+@media (max-width:344px){
+    .cosmo-form-people-top{
+        margin-top: 75px !important;
+        img{
+            margin-top: 135px;
+        }
+    }
+    .cosmo-people-top-text{
+        margin-top: 155px !important;
+    }
+    .cosmo-form{
+        margin-top: 850px !important;
+    }
+    .sale{
+        height: 25px !important;
+    }
+}
